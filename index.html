@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rádio Podcast</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="center">Rádio Podcast</h1>
+    <div class="center">
+      <input id="inputFrequency" class="inputFrequency" type="text" value="87.5" disabled />
+    </div>
+    <div>
+      <input id="inputRange" class="inputRange" type="range" min="87.5" max="108" step="0.1" value="87.5" />
+    </div>
+    <div class="center" id="divPodcasts">
+      Nenhum podcast encontrado nesta frequência.
+    </div>
+  </div>
+  <div id="credit">
+    <img src="https://i.ibb.co/6Y83fBR/image.png" />
+  </div>
+  <script src="./js/podcast.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
