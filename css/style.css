@@ -15,9 +15,5 @@
 }
 
 #credit {
-  position: fixed;
-  bottom: 70px;
-  width: 270px;
-  margin-left: -135px;
-  left: 50%;
+margin-top: 100px !important;
 }
