@@ -21,7 +21,7 @@ const realPodcasts = [
     link: 'https://www.lambda3.com.br/lambda3-podcast/'
   },
   {
-    id: '88.5',
+    id: '93.5',
     title: 'DevNaEstrada',
     description: 'Desenvolviemnto em geral e histórias de carreira de desenvolvedores.',
     img: '4.jpg',
